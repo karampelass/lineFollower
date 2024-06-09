@@ -39,7 +39,7 @@ def set_motors(left_speed, right_speed):
 # Main loop
 running = False
 turn_speed = 30000  # Slower speed for turning
-forward_speed = int(1 * 30000)  # 70% speed for moving forward
+forward_speed = int(0.7 * 30000)  # 70% speed for moving forward
 
 while True:
     if button_start.value() == 0:
